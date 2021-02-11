@@ -10,14 +10,17 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('https://www.vladtime.ru/uploads/posts/2017-09/1506413470_atlanticheskiy_okean_photographiya_10.jpg') ;
+    background-image: url('images/1478873097_leto_gory_priroda_ozero_reka.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .header {
-   font-size: 36px; 
-   color: beige;
+    font-family: 'Stalinist One', cursive;
+    font-weight: 400;
+    font-size: 70px; 
+    color: beige;
+    text-shadow: 0px 0px 20px black;
 }
 
 .paragraph {
