@@ -1,0 +1,35 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+.header {
+font-size: 70px;
+font-family: 'Yanone Kaffeesatz', sans-serif;;
+color: rgb(20, 16, 240);
+font-weight: 300;
+
+}
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url("https://static.wikia.nocookie.net/jjba/images/d/d0/HierophantGreen_AnimeAV.png/revision/latest?cb=20160414185638") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paragraph {
+    font-size: 40px;
+    color: rgb(20, 16, 240);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+}
+#timer {
+color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black;
+}
