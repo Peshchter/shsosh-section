@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+}
+.header {
+    height: 152px;
+    width: 100%;
+    background-color: aqua;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1142px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    display: flex;
+}
+
+.logo {
+    width: 59px;
+    height: 51px;
+}
+
+.button-pink {
+    background-color: #F16D7F;
+    min-height: 39px;
+    min-width: 131px;
+    padding: 14 12 11 20;
+}
