@@ -10,10 +10,26 @@ body {
     min-height: 100vh;
     display: flex;
 }
+
+input {
+    width: 318px;
+    height: 39px;
+    border: 2px #E8E8E8 solid;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
 .header {
     height: 152px;
     width: 100%;
-    background-color: aqua;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -22,8 +38,7 @@ body {
 .container {
     width: 1142px;
     background-color: rgb(255, 255, 255);
-    flex-direction: row;
-    display: flex;
+
 }
 
 .logo {
@@ -35,5 +50,42 @@ body {
     background-color: #F16D7F;
     min-height: 39px;
     min-width: 131px;
-    padding: 14 12 11 20;
+    height: 39px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.cart {
+    width: 33px;
+    height: 30px;
+    margin-right: 25px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+}
+
+.gray {
+    background-color:#CDCDCC;
+    height: 39px;
+    border: 2px #E8E8E8 solid;
+    padding: 15px;
+}
+
+.search {
+    border-radius: 0 6px 6px 0;
+    margin-left: -2px;
+    background-color: white;
+    color:#A4A4A4;
+    background-image: url("images/search.svg");
+}
+
+.menu {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    border-top: #E8E8E8 2px solid;
 }
